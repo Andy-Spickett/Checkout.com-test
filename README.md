@@ -1,5 +1,4 @@
-# Checkout.com
-Checkout.com would like you to create a web service using the .NET framework of your choice that will enable us to manage a shopping list for our office.
+# Checkout.com 
 
 1 - Service test
 
@@ -15,3 +14,5 @@ HTTP GET request for retrieving what we have in the shopping list.
 2 - Service Client
 
 Please note I have altered the Checkout.ApiClient.Net40 project in the checkout-net-library-master solution(not the Net 4.5 as I had an older version of Visual studio which didnt support the c-sharp 6) to work with the API created above.
+
+I have added a DrinkService under the APIServices model and reference to this in the APIClient class.
